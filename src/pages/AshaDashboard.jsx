@@ -3,7 +3,7 @@ import { hotspots, stats } from "../services/mockData";
 import StatCard from "../components/StatCard";
 import { Link } from "react-router-dom";
 
-export default function Dashboard(){
+export default function AshaDashboard(){
   return (
     <div className="py-12 px-6">
       <div className="max-w-7xl mx-auto grid gap-8">

@@ -11,9 +11,10 @@ import ReportSymptoms from "./pages/ReportSymptoms";
 import Alerts from "./pages/Alerts";
 import Awareness from "./pages/Awareness";
 import WaterQuality from "./pages/WaterQuality";
-import Dashboard from "./pages/Dashboard";
+import AshaDashboard from "./pages/AshaDashboard";
 import HotspotDetails from "./pages/HotspotDetails";
-
+import HealthDashboard from "./pages/HealthDashboard";
+import CitizenDashboard from "./pages/CitizenDashboard";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-[#F6FAFD] text-[#0A1931]">
@@ -27,8 +28,10 @@ export default function App() {
           <Route path="/alerts" element={<Alerts />} />
           <Route path="/awareness" element={<Awareness />} />
           <Route path="/water-quality" element={<WaterQuality />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/hotspot/:id" element={<HotspotDetails />} />
+          <Route path="/citizen-dashboard" element={<CitizenDashboard />} />
+        <Route path="/asha-dashboard" element={<AshaDashboard />} />
+        <Route path="/health-dashboard" element={<HealthDashboard />} />
+   <Route path="/hotspot/:id" element={<HotspotDetails />} />
         </Routes>
       </main>
       <Footer />
