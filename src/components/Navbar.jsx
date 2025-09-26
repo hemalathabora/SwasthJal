@@ -22,7 +22,6 @@ export default function Navbar(){
           <Link to="/alerts" className="hover:text-[#B3CFE5]">Alerts</Link>
           <Link to="/awareness" className="hover:text-[#B3CFE5]">Awareness</Link>
           <Link to="/water-quality" className="hover:text-[#B3CFE5]">Water</Link>
-          <Link to="/dashboard" className="hover:text-[#B3CFE5]">Dashboard</Link>
           <Link to="/login" className="ml-2 px-3 py-1 rounded-lg bg-[#B3CFE5] text-[#0A1931] font-semibold">Login</Link>
         </nav>
 
@@ -32,7 +31,6 @@ export default function Navbar(){
           </svg>
         </button>
       </div>
-
       {open && (
         <div className="md:hidden px-6 pb-6 bg-[#0A1931]">
           <Link to="/" className="block py-2 text-white">Home</Link>
